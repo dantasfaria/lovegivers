@@ -89,6 +89,97 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.fullcarouselcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #F2C49B;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.containercarousel {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlidescarousel {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertextcarousel {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-containercarousel {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.columncarousel {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.democarousel {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
 .portfolio-modal .modal-dialog {
   margin: 1rem;
   max-width: 100vw;
@@ -7548,6 +7639,12 @@ textarea.form-control-lg {
   margin-bottom: 3rem !important;
 }
 
+.mb-5np {
+  max-width: 400px;
+  margin-top: 6rem;
+  margin-bottom: 3rem !important;
+}
+
 .mb-auto {
   margin-bottom: auto !important;
 }
@@ -7668,6 +7765,10 @@ textarea.form-control-lg {
 .py-5qs {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-5qss {
+  padding-top: 0;
 }
 
 .pt-0 {
@@ -7968,8 +8069,6 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
   color: white;
 }
-
-
 
 .text-black-50 {
   --bs-text-opacity: 1;
