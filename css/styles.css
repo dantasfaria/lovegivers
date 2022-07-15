@@ -89,6 +89,10 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.youtubevideo {
+  padding-top: 7rem;
+}
+
 .carouselcontainer {
   padding: 6rem;
   background-color: #F2C49B;
