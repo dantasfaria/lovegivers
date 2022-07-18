@@ -89,6 +89,74 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.googlemap {
+  background-color: #F2C49B;
+}
+
+.containercards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #F2C49B;
+  box-shadow: rgba(0, 0, 0, 0.5);
+}
+.contact-section .card {
+  border-bottom: 0.25rem solid #cf7d64;
+}
+.contact-section .card h4, .contact-section .card .h4 {
+  font-size: 0.8rem;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+.contact-section .card hr {
+  border-color: #64a19d;
+  border-width: 0.25rem;
+  width: 3rem;
+}
+.contact-section .social {
+  margin-top: 5rem;
+}
+.contact-section .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+.contact-section .social a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+.contact-section .social a:active {
+  color: #fff;
+}
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:50%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+.googlemaps {
+  background-color: #F2C49B;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 .carouseldemo {
   display: flex;
   justify-content: center;
@@ -151,6 +219,7 @@ body {
 
 .page-sectionnp {
   padding-top: 9.3rem;
+  min-height: 97vh;
 }
 
 .section-subheading {
