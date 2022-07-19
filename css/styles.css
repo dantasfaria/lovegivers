@@ -748,7 +748,6 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
-  width: auto;
 }
 
 .img-thumbnail {
@@ -7334,6 +7333,12 @@ textarea.form-control-lg {
   order: -1 !important;
 }
 
+.order-firstqss {
+  align-items: center;
+  justify-content: center;
+  order: -1 !important;
+}
+
 @media (max-width: 991px) {
   .order-firstqs {
     display: flex;
@@ -11556,6 +11561,14 @@ body {
 }
 
 hr.divider {
+  height: 0.2rem;
+  max-width: 3.25rem;
+  margin: 1.5rem auto;
+  background-color: #f4623a;
+  opacity: 1;
+}
+
+hr.divider-blue {
   height: 0.2rem;
   max-width: 3.25rem;
   margin: 1.5rem auto;
