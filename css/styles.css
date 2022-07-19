@@ -89,6 +89,12 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+@media (max-width: 991px) {
+  .contact-section {
+    width: 100% !important;
+  }
+}
+
 .portfolio-caption-headingm {
   color: white;
 }
