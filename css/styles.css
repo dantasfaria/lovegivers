@@ -93,8 +93,9 @@ body {
   height: 150px;
   width: 100vw;
   position: absolute;
-  top: 795px;
+  top: 845px;
 }
+
 @media (max-width: 991px) {
   .contact-section {
     width: 100% !important;
