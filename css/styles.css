@@ -89,11 +89,39 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.lovegivers-our-mission {
+  text-align: center;
+}
+
+.lovegivers-our-values {
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .seja-lovegivers-iframe {
+    width: 100%;
+    height: 40vw;
+  }
+}
+
+.blue-wave-margin{
+  margin-bottom: 6rem !important;
+}
+
+
 .white-wave{
   height: 150px;
   width: 100vw;
   position: absolute;
-  top: 845px;
+  top: 88vh;
+}
+
+.blue-wave {
+  height: 150px;
+  width: 100vw;
+  position: absolute;
+  top: 355vh;
 }
 
 @media (max-width: 991px) {
@@ -824,6 +852,17 @@ progress {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1320px;
   }
+}
+
+.contact-page-row {
+  background-color: #f2c49b;
+  padding: 5vh 0 5vh 0;
+  --bs-gutter-x: 0 !important;
+  padding-right: 2vw;
+}
+
+.contact-cards-width {
+  width: 40% !important;
 }
 .row {
   --bs-gutter-x: 1.5rem;
@@ -11796,4 +11835,5 @@ header.masthead h1, header.masthead .h1 {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
 }
