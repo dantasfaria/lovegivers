@@ -856,13 +856,13 @@ progress {
 
 .contact-page-row {
   background-color: #f2c49b;
-  padding: 5vh 0 5vh 0;
+  padding: 20vh 0 44vh 0;
   --bs-gutter-x: 0 !important;
   padding-right: 2vw;
 }
 
 .contact-cards-width {
-  width: 40% !important;
+  width: 50% !important;
 }
 .row {
   --bs-gutter-x: 1.5rem;
@@ -7635,6 +7635,18 @@ textarea.form-control-lg {
   margin-bottom: 3rem !important;
 }
 
+@media (max-width: 497px) {
+  .mb-5np {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 390px) {
+  .mb-5np {
+    max-width: 210px;
+  }
+}
+
 .mb-auto {
   margin-bottom: auto !important;
 }
@@ -7764,6 +7776,11 @@ textarea.form-control-lg {
 
 .py-5qss {
   padding-top: 0;
+}
+
+.py-5qsnv {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
 }
 
 .pt-0 {
