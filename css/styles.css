@@ -285,6 +285,11 @@ body {
   margin-bottom: 3rem;
 }
 
+.section-subheading-contact {
+  margin-top: 2rem;
+  margin-bottom: -0.5rem;
+}
+
 .logo-home {
   height: 70px;
 }
