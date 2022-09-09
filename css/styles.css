@@ -89,6 +89,25 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
 .portfolio-modal .modal-content p {
   margin-bottom: 2rem;
   margin-top: 2rem;
@@ -96,7 +115,9 @@ body {
 
 .contatoSection {
   padding-top: 9.3rem;
-    min-height: 60vh;
+  padding-bottom: 2rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 .cardsPadding {
