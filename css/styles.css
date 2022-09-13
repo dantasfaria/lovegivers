@@ -89,6 +89,10 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .section-heading {
   padding-bottom: 3.5rem;
 }
@@ -915,6 +919,7 @@ progress {
   padding: 5vh 0 18vh 0;
   --bs-gutter-x: 0 !important;
   padding-right: 2vw;
+  min-height: 64.6vh;
 }
 
 .contact-cards-width {
