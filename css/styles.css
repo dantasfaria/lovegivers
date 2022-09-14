@@ -89,6 +89,14 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.valueMarginRight {
+  margin-right: 1rem;
+}
+
+.valueMarginLeft {
+  margin-left: 1rem;
+}
+
 .textSize {
   display: flex;
   font-size:x-small;
