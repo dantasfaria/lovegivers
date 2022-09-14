@@ -99,10 +99,37 @@ body {
 
 .textSize {
   display: flex;
-  font-size:x-small;
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 820px) {
+  .textSize {
+    display: flex;
+    font-size:small;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 540px) {
+  .textSize {
+    display: flex;
+    font-size:x-small;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 365px) {
+  .textSize {
+    display: flex;
+    font-size: 7px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 
 .videoSize {
   max-width: 100%;
